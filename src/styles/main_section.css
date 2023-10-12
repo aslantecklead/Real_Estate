@@ -1,0 +1,108 @@
+@font-face {
+	font-family: headlineFont;
+	src: url("/public/fonts/gilroy-semibold.ttf");
+}
+
+.headline {
+	font-size: 50px;
+	text-align: center; 
+	font-family: headlineFont;
+	color: white;
+}
+
+.main_section {
+	height: 900px;
+	background: url("/public/images/backgroung.png") no-repeat center center fixed;
+	background-size: cover;
+	padding-top: 120px;
+}
+
+.upper_line {
+	border: none;
+  background-color: white;
+  height: 0.08px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  background: url("/public/images/Group.png") no-repeat;
+  background-size: 100% 100%; 
+  position: relative;
+  top: -75px;
+  left: 130px;
+}
+.pages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 250px;
+  margin-top: 20px;
+  gap: 100px;
+  font-family: headlineFont;
+  position: center; /* Note: 'center' is not a valid value for 'position' */
+}
+
+.pages h1 {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+  position: relative;
+  margin-top: -123.5px;
+}
+
+.pages h1 a {
+  text-decoration: none; 
+	color: #fff;/* Remove underlines from anchor tags */
+}
+
+.pages h1::before {
+  content: '';
+  position: absolute;
+  bottom: -45px;
+  left: -10px;
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transform-origin: center bottom;
+  transition: transform 0.3s;
+}
+
+.pages h1:hover::before {
+  transform: scaleX(1);
+}
+
+.login {
+	position: absolute;
+	top: 50px;
+	right: 95px;
+	height: 35px;
+	width: 150px;
+	z-index: 2;
+}
+
+.login input[type=button] {
+	width: 150px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: headlineFont, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+}
+
+.login input[type=button]:hover {
+	opacity: 0.8;
+}
+
+.login input[type=button]:active {
+	opacity: 0.6;
+}
