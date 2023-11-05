@@ -144,7 +144,45 @@
   height: 45px; 
   border: none; 
   background-color: #DFDFDF;
-  margin-right: 500px; 
+  margin-right: 10px; 
   width: 2px; 
 }
 
+.signIn {
+  position: fixed;
+  right: 100px;
+  top: 50px;
+}
+
+.signIn .dropdown-menu .dropdown-item {
+  color: #000; 
+}
+
+.search_input {
+  margin-right: 10px; 
+  width: 550px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-family: headlineFont;
+}
+
+.form-select {
+  width: 180px;
+  height: 45px;
+  margin: 25px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
