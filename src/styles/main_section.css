@@ -178,11 +178,3 @@
 .hidden {
   display: none;
 }
-
-.rectangle {
-  width: 200px;
-  height: 100px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  margin: 20px;
-}
