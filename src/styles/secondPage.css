@@ -1,0 +1,15 @@
+body{
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 33.333%;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
